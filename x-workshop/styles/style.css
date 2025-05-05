@@ -1,0 +1,72 @@
+h1, h2 {
+    position: relative;
+    color: #C8C4F5 !important;
+}
+
+h3 {
+    display: flex;
+    width: fit-content;
+    flex-wrap: wrap-reverse;
+
+    &:after {
+        content: ' ';
+        position: absolute;
+        width: 75px;
+        height: 3px;
+        background: #C8C4F5;
+    }
+}
+
+h4 {
+    margin: 16px 0 0;
+    color: #878787;
+}
+
+.highlight {
+    color: #C8C4F5;
+}
+
+.description {
+    color: #4A4A4A;
+    font-size: 12px;
+    margin: 8px 0 16px;
+    line-height: 1.8;
+}
+
+.slidev-layout a,
+.slidev-layout b a,
+.slidev-layout h3 a,
+.slidev-layout h2 a,
+.slidev-layout h1 a {
+    text-decoration: none;
+    border-bottom-width: 0;
+}
+
+.slidev-layout h5 a,
+.slidev-layout p a,
+.slidev-layout .description a,
+.slidev-layout .description b a {
+    color: #296aa3;
+}
+
+.slidev-layout h5 a:hover,
+.slidev-layout p a:hover,
+.slidev-layout .description a:hover,
+.slidev-layout .description b a:hover {
+    color:  #5d8392
+}
+
+.slidev-vclick-target {
+    transition: opacity 100ms ease;
+}
+
+.slidev-vclick-hidden {
+    opacity: 0.1 !important;
+    pointer-events: none;
+}
+
+.hide-click {
+    .dishonored {
+        opacity: 0 !important
+    }
+}
